@@ -1,3 +1,3 @@
 # XamMap
 
-[](./Demos/Demo.gif)
+![XamMap Demo](./Demos/Demo.gif)
