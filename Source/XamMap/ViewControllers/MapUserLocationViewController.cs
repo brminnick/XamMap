@@ -25,6 +25,8 @@ namespace XamMap
 		{
 			base.ViewDidAppear(animated);
 
+			MapHelpers.MoveMapToLocation(MapView, true);
+
 			MapView.DidUpdateUserLocation += HandleDidUpdateUserLocation;
 		}
 
